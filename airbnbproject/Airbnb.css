@@ -1,0 +1,255 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    background-color: rgb(48, 2, 2);
+}
+
+.firstpageimage{
+    background-image:  url(./glasses\ girl.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 100vh;
+    position: relative;
+    top: -78px;
+    left: 678.5px;
+
+    
+}
+
+.firstpageimage div{
+    position: absolute;
+    bottom: 0;
+    left: 70px;
+    color: white;
+    font-size: larger;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.firstpageimage h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 0;
+}
+.firstpagetext{
+    position: absolute;
+    top:200px;
+    left: 200px;
+    color: white;
+    text-align: center;
+}
+.firstpagetext div{
+    padding-bottom: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+button{
+    padding: 17px;
+    color: white;
+    background-color: rgb(165, 17, 17);
+    border: tomato;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.svg{
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.section2{
+   background-color: white;
+  position: relative;
+  top: -97px;
+  width: 101.2%;
+  margin-left: -7.5px;
+  height: 50vh;
+  padding-left: 100px;
+}
+.section2 h1{
+    padding-top: 50px;
+    padding-bottom: 10px;
+
+}
+.button1{
+    padding: 17px;
+    color: white;
+    background-color: rgb(165, 17, 17);
+    border: tomato;
+    font-weight: bold;
+    border-radius: 10px;
+    font-size: 15px;
+    position: relative;
+    right:-1000px;
+    top: -100px;
+    
+}
+.firstgrid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.firstflex{
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.firstflex img{
+    border-radius: 12px;
+}
+.firstflex h3{
+    margin-top: 10px;
+    font-weight: 100;
+    font-style: italic;
+}
+.firstflex h4{
+    font-weight: 100;
+    
+}
+.section3{
+    position: relative;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section3 h4{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.section3 button{
+    margin-top: 0;
+    padding: 10px 35px;
+}
+.secondgrid{
+   
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   
+   
+}
+.secondgrid div{
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.section4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    color: black;
+    background-color: white;
+    position: relative;
+    top: -27px;
+    width: 108.37%;
+    margin-left: -105.5px;
+    height: 80vh;
+    padding-left: 100px;
+}
+
+.lastpageimage{
+    position: relative;
+    top: -50px;
+    left: -120px;
+    background-image: url(./xxb.jpg);
+    width: 100vh;
+    height: 110vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: -7.55vh;
+}
+.section5{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 0;
+    margin-left: 3.5vh;
+    margin-top: 3.5vh;
+    color: white;
+    align-items: center;
+}
+.lastpagetext{
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-right: 7rem;
+    
+}
+.lastpagetext p{
+    font-size: 21px;
+}
+.about{
+    padding-left: -30px;
+}
+.section6{
+    background-color: rgb(187, 181, 181);
+    margin-left: -100px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.section6 li{
+    list-style-type: none;
+    font-weight: 100;
+    padding: 8px 0px;
+}
+.section6 ul{
+    font-weight: bold;
+   
+}
+.section6 div{
+    padding: 15px 0px;
+}
+
+hr{
+    margin-top: 70px;
+    margin-left: 30px;
+}
+.footer{
+    border-top:rgba(0, 0, 0, 0.212) 1px solid;
+    display: flex;
+    width: 240%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.footer img{
+    margin-left: 30px;
+}
+
+.english{
+    margin-left: auto;
+    margin-right: 20px; 
+}
+.monkey{
+    margin-right: 220px;
+    position: relative;
+    left: 50px;
+}
+.gimme{
+    position: relative;
+    right: 150px;
+}
+.dadix{
+    position: relative;
+    right: 90px;
+}
+.go{
+   position: relative;
+   right: 80px;
+}
